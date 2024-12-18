@@ -76,7 +76,7 @@ From these requirements, I concluded that theses would be the necessary classes.
 
 ## UI Plan
 
-Figma link goes here
+[Figma Link](https://www.figma.com/design/AltDQREfwKEPBVW3GRyhiB/Watchlist_website?node-id=0-1&t=JkS7BfM77wp5y5Ki-1)
 
 ## Architecture / Frameworks
 
