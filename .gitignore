@@ -1,0 +1,25 @@
+# dependencies
+/node_modules
+/watchlist-website/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+# production
+/build
+
+# misc
+.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# firebase
+/api/serviceAccountKey.json
+
+# virtual environments
+/api/venv
+/api/__pycache__
+
+/.vscode
