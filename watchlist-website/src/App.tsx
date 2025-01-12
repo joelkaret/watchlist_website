@@ -1,6 +1,12 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import {
+	BrowserRouter as Router,
+	Route,
+	Routes,
+	Navigate,
+} from "react-router-dom";
 import HeaderNavBar from "./components/HeaderNavBar";
+import InvalidPage from "./components/InvalidPage"; // Import the InvalidPage component
 
 const App: React.FC = () => {
 	return (
@@ -14,7 +20,10 @@ const App: React.FC = () => {
 				<Route path="/watched">
 					{/* Component for Watched page */}
 				</Route>
-				{/* ...existing routes... */}
+				{/* Default to /search */}
+				<Route path="/" element={<Navigate to="/search" />} />
+				{/* Handle unknown pages */}
+				<Route path="*" element={<InvalidPage />} />
 			</Routes>
 		</Router>
 	);
