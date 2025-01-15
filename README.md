@@ -181,6 +181,20 @@ I used firebase as my database, and this was really easy to set up and use, so I
 
 I also plan to deploy this and actually use it personally, but I need to work out how to make sure that people can't abuse it and cost me lots of money in firebase. I will most likely make it so that only I can use it.
 
-## GITHUB LINK
+## Github Link
 
 [Github link](https://github.com/joelkaret/watchlist_website)
+
+## Notes
+
+A .env file is needed as well as serviceAccountKey.json, but these have not been committed and/or submitted as to not leak my api keys.
+
+The set of test data (watchlist-website/ShowData.csv) was generated using ChatGPT, and so may not be acccurate, but upon my own looking it is largly correct, and is not relevant if it is not accurate.
+
+## Some screenshots of the website incase deploying is not feasible
+
+![Sign in](documentation-images/signIn.png)  
+![Search page](documentation-images/searchPage.png)
+![Add page](documentation-images/addPage.png)
+![Watchlist page](documentation-images/watchlistPage.png)
+![Watchlist page with filters](documentation-images/withFilters.png)
