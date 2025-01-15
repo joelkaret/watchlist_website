@@ -180,3 +180,7 @@ I used git and github to track my changes, however I did split my commits up as 
 I used firebase as my database, and this was really easy to set up and use, so I'm glad I did it this way.
 
 I also plan to deploy this and actually use it personally, but I need to work out how to make sure that people can't abuse it and cost me lots of money in firebase. I will most likely make it so that only I can use it.
+
+## GITHUB LINK
+
+[Github link](https://github.com/joelkaret/watchlist_website)
