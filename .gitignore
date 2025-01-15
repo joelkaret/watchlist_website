@@ -1,6 +1,7 @@
 # dependencies
 /node_modules
 /watchlist-website/node_modules
+/api/node_modules
 /.pnp
 .pnp.js
 
@@ -16,10 +17,6 @@ yarn-debug.log*
 yarn-error.log*
 
 # firebase
-/api/serviceAccountKey.json
-
-# virtual environments
-/api/venv
-/api/__pycache__
+serviceAccountKey.json
 
 /.vscode

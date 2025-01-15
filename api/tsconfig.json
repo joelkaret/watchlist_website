@@ -1,0 +1,14 @@
+{
+	"compilerOptions": {
+		"target": "ES6",
+		"module": "commonjs",
+		"strict": true,
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"resolveJsonModule": true,
+		"outDir": "./dist",
+		"moduleResolution": "node",
+		"allowSyntheticDefaultImports": true
+	},
+	"include": ["src", "public/types.ts"]
+}

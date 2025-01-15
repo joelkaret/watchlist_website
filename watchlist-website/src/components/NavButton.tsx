@@ -1,23 +1,25 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { ButtonBase } from "@mui/material";
 
 interface NavButtonProps {
 	to: string;
+	selected: boolean;
 	children: React.ReactNode;
 }
 
-const NavButton: React.FC<NavButtonProps> = ({ to, children }) => {
+const NavButton: React.FC<NavButtonProps> = ({ to, selected, children }) => {
 	return (
-		<Link to={to} style={{ textDecoration: "none" }}>
-			<button
-				style={{
-					padding: "10px 20px",
-					fontSize: "16px",
-					cursor: "pointer",
-				}}>
-				{children}
-			</button>
-		</Link>
+		<ButtonBase
+			component={Link}
+			to={to}
+			style={{
+				textDecoration: "none",
+				color: "inherit",
+				borderBottom: selected ? "2px solid #000" : "none",
+			}}>
+			{children}
+		</ButtonBase>
 	);
 };
 
